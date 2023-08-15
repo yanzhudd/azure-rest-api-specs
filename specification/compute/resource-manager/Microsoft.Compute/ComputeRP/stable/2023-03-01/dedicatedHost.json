@@ -1136,7 +1136,6 @@
             "type": "string"
           },
           "x-ms-identifiers": [
-            "name"
           ],
           "description": "The list of dedicated host sizes."
         }
