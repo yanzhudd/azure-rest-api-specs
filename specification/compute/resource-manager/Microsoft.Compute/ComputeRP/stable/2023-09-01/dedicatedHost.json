@@ -796,6 +796,14 @@
           }
         ],
         "responses": {
+          "200": {
+            "description": "Accepted",
+            "headers": {
+              "Location": {
+                "type": "string"
+              }
+            }
+          },
           "202": {
             "description": "Accepted",
             "headers": {
