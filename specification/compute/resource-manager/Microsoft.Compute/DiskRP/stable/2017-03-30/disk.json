@@ -1016,7 +1016,6 @@
         "access": {
           "type": "string",
           "enum": [
-            "None",
             "Read"
           ],
           "x-ms-enum": {
