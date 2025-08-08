@@ -4669,6 +4669,7 @@
         },
         "virtualMachineId": {
           "type": "string",
+          "format": "arm-id",
           "description": "The resource Id of the source virtual machine.  Only required when capturing a virtual machine to source this Gallery Image Version."
         }
       },
@@ -4684,6 +4685,7 @@
       "properties": {
         "id": {
           "type": "string",
+          "format": "arm-id",
           "description": "The id of the gallery artifact version source."
         }
       }
@@ -4737,6 +4739,7 @@
         },
         "storageAccountId": {
           "type": "string",
+          "format": "arm-id",
           "description": "The Storage Account Id that contains the vhd blob being used as a source for this artifact version."
         }
       },
