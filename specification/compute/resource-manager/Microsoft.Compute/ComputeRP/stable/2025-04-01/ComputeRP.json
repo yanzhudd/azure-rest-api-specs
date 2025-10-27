@@ -20185,8 +20185,7 @@
             "$ref": "#/definitions/VirtualMachineScaleSetExtension"
           },
           "x-ms-identifiers": [
-            "name",
-            "id"
+            "name"
           ]
         },
         "extensionsTimeBudget": {
